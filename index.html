@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>History Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+</head>
+
+<body>
+    <h1>History Quiz</h1>
+    <button class = "start" id = "start">start</button>
+   <div>Time Remaining:  <span id = "timer"></span> </div>  
+    <div id = "question" class="question" name="q1">
+
+<br><br>
+        <h3>Question 1</h3>
+        
+        <p>In 1453, the Byzantine Empire came to an end with the capture of this city by the Turks </p>
+        <input type="radio" class="wrongOne" name="qs1">Rome</input>
+        <br>
+        <input type="radio" class="qNum" name="qs1">Constantinople</input>
+        <br>
+        <input type="radio" class="wrongOne" name="qs1">Jerusalem</input>
+        <br>
+        <input type="radio" class="wrongOne" name="qs1">Vienna</input>
+
+        <h3>Question 2</h3>
+        <p>This Vice Admiral led the British Fleet to victory at Trafalgar</p>
+        <input type="radio" class="w2" name="qs2">Chester Nimitz</input>
+        <br>
+        <input type="radio" class="w2" name="qs2">David Robinson</input>
+        <br>
+        <input type="radio" class="q2" name="qs2">Lord Nelson</input>
+        <br>
+        <input type="radio" class="w2" name="qs2">Ferdinand Megellan</input>
+
+
+        <h3>Question 3</h3>
+        <p>This Confederate General was killed by friendly fire at Chancellorsville in 1863 </p>
+        <input class="q3" type="radio" name="answer3">Stonewall Jackson</input>
+        <br>
+        <input class="w3" type="radio" name="answer3">Robert E Lee</input>
+        <br>
+        <input class="w3" type="radio" name="answer3">William Sherman</input>
+        <br>
+        <input class="w3" type="radio" name="answer3">George Custer</input>
+
+        <h3>Question 4</h3>
+        <p>The Polish Hussars aided the Hapsburgs in routing the Ottomans during the siege of this city in 1683 </p>
+        <input type="radio" class="w4" name="a4">Munich</input>
+        <br>
+        <input type="radio" class="w4" name="a4">Prague</input>
+        <br>
+        <input type="radio" class="w4" name="a4">Kiev</input>
+        <br>
+        <input type="radio" class="q4" name="a4">Vienna</input>
+
+        <h3>Question 5</h3>
+        <p>This anarchist assassinated President McKinley in 1901 </p>
+        <input class="w5" type="radio" name="answer5">John Hinkley Jr</input>
+        <br>
+        <input class="q5" type="radio" name="answer5">Leon Czolgosz</input>
+        <br>
+        <input class="w5" type="radio" name="answer5">John Wilkes Booth</input>
+        <br>
+        <input class="w5" type="radio" name="answer5">Lee Harvey Oswald</input>
+
+        <br>
+        <br>
+
+
+
+        <div id="btn">
+            <input id="submit" value="Submit" type="submit"></input>
+        
+            
+       
+        
+        
+        <br>
+        <br>
+        <br>
+        <div>Correct:</div>
+        <div id="scoreR"></div>
+        <div>Incorrect:</div>
+        <div id="scoreW"></div>
+    </div>
+
+  
+</body>
+<script type="text/javascript" src="main.js"></script>
+
+</html>
